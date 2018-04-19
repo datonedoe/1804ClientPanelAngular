@@ -1,0 +1,16 @@
+{
+    // An array of glob keys to ignore when searching.
+    "relativePath.ignore": [
+        "**/node_modules/**",
+        "**/*.dll",
+        "**/obj/**",
+        "**/objd/**"
+    ],
+    // Excludes the extension from the relative path url (Useful for systemjs imports).
+    "relativePath.removeExtension": false,
+    // An array of extensions to exclude from the relative path url (Useful for used with Webpack or when importing files of mixed types)
+    "relativePath.excludedExtensions": [
+        ".js",
+        ".ts"
+    ],
+}
